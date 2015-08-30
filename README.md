@@ -14,16 +14,16 @@
 $ omf u git-radar
 ```
 
+## Submit to [oh-my-fish]:https://github.com/fish-shell/oh-my-fish#creating
+
+```fish
+omf submit theme/git-radar .../git-radar.git
+```
+
 ## Features
 
-* Lorem ipsum dolor sit amet.
-* Consectetur adipisicing elit.
+* Enable using [git-radar]:https://github.com/michaeldfallen/git-radar as an omf theme.
 
-## Screenshot
-
-<p align="center">
-<img src="{{SCREENSHOT_URL}}">
-</p>
 
 # License
 
