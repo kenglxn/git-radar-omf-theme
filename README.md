@@ -24,6 +24,9 @@ omf submit theme/git-radar .../git-radar.git
 
 * Enable using [git-radar](https://github.com/michaeldfallen/git-radar) as an omf theme.
 
+## Screenshot
+
+![Demo](https://github.com/kenglxn/ggit-radar-omf-theme/raw/master/demo.gif)
 
 # License
 
