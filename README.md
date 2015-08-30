@@ -14,7 +14,7 @@
 $ omf u git-radar
 ```
 
-## Submit to [oh-my-fish]:https://github.com/fish-shell/oh-my-fish#creating
+## Submit to [oh-my-fish](https://github.com/fish-shell/oh-my-fish#creating)
 
 ```fish
 omf submit theme/git-radar .../git-radar.git
@@ -22,7 +22,7 @@ omf submit theme/git-radar .../git-radar.git
 
 ## Features
 
-* Enable using [git-radar]:https://github.com/michaeldfallen/git-radar as an omf theme.
+* Enable using [git-radar](https://github.com/michaeldfallen/git-radar) as an omf theme.
 
 
 # License
