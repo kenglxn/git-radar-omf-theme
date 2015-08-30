@@ -26,7 +26,7 @@ omf submit theme/git-radar .../git-radar.git
 
 ## Screenshot
 
-![Demo](https://github.com/kenglxn/ggit-radar-omf-theme/raw/master/demo.gif)
+![Demo](https://github.com/kenglxn/git-radar-omf-theme/raw/master/demo.gif)
 
 # License
 
