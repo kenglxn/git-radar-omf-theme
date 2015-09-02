@@ -9,8 +9,38 @@
 
 ## Install
 
+1. Install [Oh My Fish][omf-link]
 
 ```fish
+curl -L git.io/omf | sh
+omf help
+```
+
+2. Make sure you do not have a custom fish_prompt defined
+
+```fish
+mv ~/.config/fish/functions/fish_prompt.fish.bck
+```
+
+3. Install git-radar
+
+```fish
+brew install michaeldfallen/formula/git-radar
+```
+
+4. Replace git-radar scripts with files from master
+
+Because fish support is not part of formulae yet, need to patch it up for now. (see https://github.com/michaeldfallen/git-radar/issues/5)
+
+```fish
+
+```
+
+5. Install git-radar omf theme
+
+```fish
+$ git clone git@github.com:kenglxn/git-radar-omf-theme.git
+$ cd git-radar-omf-theme
 $ omf u git-radar
 ```
 
