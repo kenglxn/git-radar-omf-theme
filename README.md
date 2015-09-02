@@ -19,7 +19,7 @@ omf help
 * Make sure you do not have a custom fish_prompt defined
 
 ```fish
-mv ~/.config/fish/functions/fish_prompt.fish.bck
+mv ~/.config/fish/functions/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish.bck
 ```
 
 * Install git-radar
