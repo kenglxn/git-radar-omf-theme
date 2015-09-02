@@ -26,22 +26,27 @@ mv ~/.config/fish/functions/fish_prompt.fish ~/.config/fish/functions/fish_promp
 
 ```fish
 brew install michaeldfallen/formula/git-radar
+git-radar
 ```
 
 * Replace git-radar scripts with files from master
 
-Because fish support is not part of formulae yet, need to patch it up for now. (see https://github.com/michaeldfallen/git-radar/issues/5)
+Because fish support is not part of formulae yet (v.0.2), we need to patch it up for now. (see https://github.com/michaeldfallen/git-radar/issues/5)
+When fish support is added to git-radar, then this step can be ignored.
 
 ```fish
-
+cd /usr/local/Cellar/git-radar/0.2/libexec/
+rm *
+git clone git@github.com:michaeldfallen/git-radar.git .
+cd -
 ```
 
 * Install git-radar omf theme
 
 ```fish
 $ git clone git@github.com:kenglxn/git-radar-omf-theme.git
-$ cd git-radar-omf-theme
-$ omf u git-radar
+$ omf u git-radar-omf-theme/
+$ omf theme git-radar-omf-theme
 ```
 
 ## Submit to [oh-my-fish](https://github.com/fish-shell/oh-my-fish#creating)
